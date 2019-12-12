@@ -1,0 +1,492 @@
+<!-- Details -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    >
+    <!-- Rectangle -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/Rectangle" />
+
+
+
+
+    <!-- Anchor Oyster Bar -->
+    <TextView
+        android:id="@+id/anchor_oyst"
+        android:layout_width="202dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="188dp"
+        android:text="@string/anchor_oyst"
+        android:textAppearance="@style/anchor_oyst"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 28sp
+    -->
+    <!-- styles.xml -->
+    <style android:name="anchor_oyst">
+
+        <item android:name="android:textSize">
+            24sp
+        </item>
+
+        <item android:name="android:textColor">
+            #E6000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string android:name="anchor_oyst">
+
+        Anchor Oyster Bar
+    </string>
+
+
+
+
+    <!-- $$ -- Seafood -->
+    <TextView
+        android:id="@+id/seafood"
+        android:layout_width="114dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="218dp"
+        android:text="@string/seafood"
+        android:textAppearance="@style/seafood"
+        android:gravity="center_vertical"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 21sp
+    -->
+    <!-- styles.xml -->
+    <style android:name="seafood">
+
+        <item android:name="android:textSize">
+            18sp
+        </item>
+
+        <item android:name="android:textColor">
+            #E6000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string android:name="seafood">
+
+        $$ -- Seafood
+    </string>
+
+
+
+
+    <!-- Wait_box -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/wait_box"
+        android:layout_width="163dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="259dp"
+        android:background="@drawable/Wait_box"
+        />
+
+
+
+
+    <!-- Line -->
+    <View
+        android:id="@+id/line"
+        android:layout_width="360.01dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="222dp"
+        android:background="@drawable/line" />
+
+
+    <!-- drawable/line.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="361.01dp"
+        android:height="1dp"
+        android:viewportWidth="361.01"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H360.506H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H360.506H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#909090"
+            />
+
+    </vector>
+
+
+
+    <!-- Line -->
+    <View
+        android:id="@+id/line"
+        android:layout_width="360.01dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/line"
+        />
+
+
+    <!-- drawable/line.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="361.01dp"
+        android:height="1dp"
+        android:viewportWidth="361.01"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H360.506H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H360.506H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#909090"
+            />
+
+    </vector>
+
+
+
+    <!-- Line -->
+    <View
+        android:id="@+id/line"
+        android:layout_width="360.01dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/line"
+        />
+
+
+    <!-- drawable/line.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="361.01dp"
+        android:height="1dp"
+        android:viewportWidth="361.01"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H360.506H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H360.506H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#909090"
+            />
+
+    </vector>
+
+
+
+    <!-- Rectangle 2.1 -->
+    <View
+        android:id="@+id/Rectangle_2.1"
+        android:layout_width="68dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/Rectangle_2.3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/Rectangle_2.1" />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="68dp"
+        android:height="52dp"
+        android:viewportWidth="68"
+        android:viewportHeight="52"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M26 0H42C56.3594 0 68 11.6406 68 26C68 40.3594 56.3594 52 42 52H26C11.6406 52 0 40.3594 0 26C0 11.6406 11.6406 0 26 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V52H68V0"
+                android:fillColor="#C4C4C4"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Rectangle 2.4 -->
+    <View
+        android:id="@+id/Rectangle_2.4"
+        android:layout_width="68dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/Rectangle_2.4" />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="68dp"
+        android:height="52dp"
+        android:viewportWidth="68"
+        android:viewportHeight="52"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M26 0H42C56.3594 0 68 11.6406 68 26C68 40.3594 56.3594 52 42 52H26C11.6406 52 0 40.3594 0 26C0 11.6406 11.6406 0 26 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V52H68V0"
+                android:fillColor="#C4C4C4"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Rectangle 2.3 -->
+    <View
+        android:id="@+id/Rectangle_2.3"
+        android:layout_width="68dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="378dp"
+        android:background="@drawable/Rectangle_2.3" />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="68dp"
+        android:height="52dp"
+        android:viewportWidth="68"
+        android:viewportHeight="52"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M26 0H42C56.3594 0 68 11.6406 68 26C68 40.3594 56.3594 52 42 52H26C11.6406 52 0 40.3594 0 26C0 11.6406 11.6406 0 26 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V52H68V0"
+                android:fillColor="#C4C4C4"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Make a reservation -->
+    <TextView
+        android:id="@+id/make_a_rese"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="259dp"
+        android:text="@string/make_a_rese"
+        android:textAppearance="@style/make_a_rese"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 27sp
+    -->
+    <!-- styles.xml -->
+    <style android:name="make_a_rese">
+
+        <item android:name="android:textSize">
+            23sp
+        </item>
+
+        <item android:name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string android:name="make_a_rese">
+
+        Make a reservation
+    </string>
+
+
+
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="326dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="476dp"
+        android:text="@string/description"
+        android:textAppearance="@style/description"
+        android:gravity="center_horizontal|top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 16sp
+    -->
+    <!-- styles.xml -->
+    <style android:name="description">
+
+        <item android:name="android:textSize">
+            14sp
+        </item>
+
+        <item android:name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string android:name="description">
+
+        Description\n
+    </string>
+
+
+
+
+    <!-- Since 1977, diners have been coming to this nautical-themed eatery for fresh fish & shellfish. Comfort food -- Seafood -- Family Friendly Lunch -- Dinner -- Casual -->
+    <TextView
+        android:id="@+id/since_1977_"
+        android:layout_width="360dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="495dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/since_1977_"
+        android:textAppearance="@style/since_1977_" />
+
+    <!--
+      Font family: Roboto
+      Line height: 16sp
+    -->
+    <!-- styles.xml -->
+    <style android:name="since_1977_">
+
+        <item android:name="android:textSize">
+            14sp
+        </item>
+
+        <item android:name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string android:name="since_1977_">
+
+        Since 1977, diners have been coming to this nautical-themed eatery for fresh fish & shellfish.\n\nComfort food -- Seafood -- Family Friendly\nLunch -- Dinner -- Casual
+    </string>
+
+
+
+
+    <!-- Group -->
+    <View
+        android:id="@+id/group"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/Group"
+        />
+
+</RelativeLayout>
